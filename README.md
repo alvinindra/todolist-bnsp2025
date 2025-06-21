@@ -11,7 +11,14 @@ Aplikasi sederhana berbasis PHP untuk mencatat tugas harian.
 
 ## Struktur Folder
 - index.php - Aplikasi Utama
+- config/database.php - Koneksi Database
 - screenshot - Tangkapan result pekerjaan
+- .env.example - File konfigurasi env
+- .gitignore - File untuk mengabaikan file tertentu dalam repositori Git
+- composer.json - File konfigurasi Composer
+- composer.lock - File kunci Composer
+- README.md - Dokumentasi proyek ini
+- db_todolist_bnsp2025.sql - File SQL untuk membuat tabel dan data awal
 
 ## Cara menjalankan
 1. Salin proyek ini ke dalam folder "htdocs" pada server lokal Anda (XAMPP, WAMP, dll).
