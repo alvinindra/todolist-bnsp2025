@@ -139,7 +139,7 @@ function showList($tasks)
                     </form>
                     <span class="font-medium ' . $taskStatusClass . '">' . $task['title'] . '</span>
                 </div>
-                <div class="flex items-center space-x-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                <div class="flex items-center space-x-2 transition-opacity">
                     <a href="?action=edit&id=' . $task['id'] . '" class="px-3 py-1 text-sm font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded-md transition-colors">
                         Edit
                     </a>
@@ -171,11 +171,9 @@ function showList($tasks)
 </head>
 
 <body class="bg-slate-900 text-white">
-
   <div class="container mx-auto max-w-2xl mt-12 px-4">
-
     <header class="text-center mb-8">
-      <h1 class="text-4xl font-bold text-white">Todo List Saya</h1>
+      <h1 class="text-4xl font-bold text-white">To-Do List BNSP 2025</h1>
       <p class="text-slate-400 mt-2">Atur semua tugasmu di satu tempat.</p>
     </header>
 
